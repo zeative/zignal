@@ -2,7 +2,12 @@
   "name": "@zaadevofc/libsignal",
   "version": "1.0.5",
   "main": "dist/index.js",
+  "author": "zaadevofc",
   "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/@zaadevofc/libsignal",
+  "repository": {
+    "url": "https://www.npmjs.com/package/@zaadevofc/libsignal"
+  },
   "scripts": {
     "build": "rolldown -c",
     "r:patch": "npm run build && npm version patch && npm publish --access public",
