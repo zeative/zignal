@@ -1,5 +1,5 @@
 {
-  "name": "@zaadevofc/zignal",
+  "name": "@zaadevofc/libsignal",
   "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
