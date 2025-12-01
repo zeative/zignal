@@ -1,10 +1,13 @@
 {
   "name": "zignal",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rolldown -c"
+    "build": "rolldown -c",
+    "r:patch": "npm run build && npm version patch && npm publish",
+    "r:minor": "npm run build && npm version minor && npm publish",
+    "r:major": "npm run build && npm version major && npm publish"
   },
   "dependencies": {
     "curve25519-js": "^0.0.4",
