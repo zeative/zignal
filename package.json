@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/@zaadevofc/libsignal",
   "repository": {
-    "url": "https://www.npmjs.com/package/@zaadevofc/libsignal"
+    "url": "https://github.com/zeative/libsignal"
   },
   "scripts": {
     "build": "rolldown -c",
